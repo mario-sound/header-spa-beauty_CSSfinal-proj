@@ -1,0 +1,22 @@
+@use "../base/base" as *;
+@use "../abstracts/abstracts" as *;
+
+%button {
+  display: inline-block;
+  padding: 18px 40px;
+  font-size: inherit;
+  font-family: $first-font;
+  color: $white;
+  background-color: $blue-dark;
+  border: none;
+  border-radius: 32px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.5s;
+  transition: background-color 0.5s;
+
+  &:hover {
+    background-color: $blue-light;
+    color: $blue-dark;
+  }
+}

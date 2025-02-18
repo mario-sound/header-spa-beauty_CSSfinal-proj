@@ -1,0 +1,32 @@
+@use "../abstracts/abstracts" as *;
+@use "../components/components" as *;
+
+html {
+  font-family: $first-font, sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: linear-gradient(to left, #a9d6cb 40%, #faf8f5 40%);
+  background-repeat: no-repeat;
+  background-size: 100% 90vh;
+}
+
+.container__main {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: $blue-dark;
+}
+
+ul {
+  list-style: none;
+}
+
+.button {
+  @extend %button;
+}

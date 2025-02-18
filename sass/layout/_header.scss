@@ -1,0 +1,54 @@
+@use "../components/components" as *;
+@use "../base/base" as *;
+@use "../abstracts/abstracts" as *;
+
+.header {
+  a {
+    transition: all 0.5s ease;
+  }
+  a:hover {
+    color: $blue-light;
+  }
+  a.button:hover {
+    color: $blue-dark;
+  }
+
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    .nav-principal {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+  }
+  &__search-sign-menu {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    .search-bag__ul {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      img:hover {
+        filter: drop-shadow(0 1px 10px rgba(255, 255, 255, 1));
+      }
+    }
+    .sign-menu__ul {
+      li:first-child > a:hover {
+        filter: drop-shadow(0 1px 5px rgba(255, 255, 255, 1));
+        // color: $white;
+        color: $blue-dark;
+      }
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+  }
+}
