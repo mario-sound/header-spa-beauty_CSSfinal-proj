@@ -1,6 +1,6 @@
 # Header Beauty Spa - CSS Final Project
 
-![Header Beauty Spa](glowqueen-beauty-shop.png)
+![Header Beauty Spa](img/glowqueen-beauty-shop.png)
 
 ## 📌 Descripción
 
